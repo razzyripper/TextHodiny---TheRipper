@@ -5,171 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="clock.css">
-    <title>textClock</title>
+    <title>TextovéHodiny-TheRipper</title>
+
+    <!-- TYTO HODINY VZNIKLY JAKO KOMPONENTA DO JINÉHO PROJKETU A KOD JE VOLNĚ POUŽITELNÝ A POKUD SE TI TYTO HODINY LÍBÍ, TAK MI KLIDNĚ NAPIŠ -->
 </head>
 <body>
     
-    <div id="clockText">
+    
+   
+        <div class="timeContainer">
+            <div id="clockText">X</div>
+            <div class="clock-component">
+            <ul class="timeList">
+                
+                <li class="time 1">JEDNA</li>
+                <li class="time 2">DVA</li>
+                <li class="time 3">TŘI<I</li>
+                <li class="time 4">ČTYŘI</li>
+                <li class="time 5">PĚT</li>
+                <li class="time 6">ŠEST</li>
+                <li class="time 7">SEDM</li>
+                <li class="time 8">OSM</li>
+                <li class="time 9">DEVĚT</li>
+                <li class="time 10">DESET</li>
+                
 
+            </ul>
+            <ul class="timeList">
+                <li class="time 11">JEDENÁCT</li>
+                <li class="time 12">DVANÁCT</li>
+                <li class="time 13">TŘINÁCT</li>
+                <li class="time 14">ČTRNÁCT</li>
+                <li class="time 15">PATNÁCT</li>
+                <li class="time 16">ŠESTNÁCT</li>
+                <li class="time 17">SEDMNÁCT</li>
+                <li class="time 18">OSMNÁCT</li>
+                <li class="time 19">DEVATENCÁT</li>
+                <li class="time 20">DVACET</li>
+            </ul>
+            <ul class="timeList">
+                <li class="time 21">DVACETJEDNA</li>
+                <li class="time 22">DVACETDVA</li>
+                <li class="time 23">DVACETTŘI</li>
+                <li class="time 24">DVACETČTYŘI</li>
+                <li class="time 25">DVACETPĚT</li>
+                <li class="time 26">DVACETŠEST</li>
+                <li class="time 27">DVACETSEDM</li>
+                <li class="time 28">DVACETOSM</li>
+                <li class="time 29">DVACETDEVĚT</li>
+                <li class="time 30">TŘICET</li>
+            
+            </ul>
+            <ul class="timeList">
+                <li class="time 31">TŘICETJEDNA</li>
+                <li class="time 32">TŘICETDVA</li>
+                <li class="time 33">TŘICETTŘI</li>
+                <li class="time 34">TŘICETČTYŘI</li>
+                <li class="time 35">TŘICETPĚT</li>
+                <li class="time 36">TŘICETŠEST</li>
+                <li class="time 37">TŘICETSEDM</li>
+                <li class="time 38">TŘICETOSM</li>
+                <li class="time 39">TŘICETDEVĚT</li>
+                <li class="time 40">ČTYŘICET</li>
+             
+            </ul>
+            <ul class="timeList">
+                <li class="time 41">ČTYŘICETJEDNA</li>
+                <li class="time 42">ČTYŘICETDVA</li>
+                <li class="time 43">ČTYŘICETTŘI</li>
+                <li class="time 44">ČTYŘICETČTYŘI</li>
+                <li class="time 45">ČTYŘICETPĚT</li>
+                <li class="time 46">ČTYŘICETŠEST</li>
+                <li class="time 47">ČTYŘICETSEDM</li>
+                <li class="time 48">ČTYŘICETOSM</li>
+                <li class="time 49">ČTYŘICETDEVĚT</li>
+                <li class="time 50">PADESÁT</li>
+            </ul>
+            <ul class="timeList">
+                <li class="time 51">PADESÁTJEDNA</li>
+                <li class="time 52">PADESÁTDVA</li>
+                <li class="time 53">PADESÁTTŘI</li>
+                <li class="time 54">PADESÁTČTYŘI</li>
+                <li class="time 55">PADESÁTPĚT</li>
+                <li class="time 56">PADESÁTŠEST</li>
+                <li class="time 57">PADESÁTSEDM</li>
+                <li class="time 58">PADESÁTOSM</li>
+                <li class="time 59">PADESÁTDEVĚT</li>
+                <li class="time 00">NULA</li>
+            </ul>
+           
+        </div>
     </div>
-
-    <div class="hourContainer">
-        <ul class="hourList">
-          <li class="hr 1">JEDNA</li>
-          <li class="hr 2">DVA</li>
-          <li class="hr 3">TŘI</li>
-          <li class="hr 4">ČTYŘI</li>
-        </ul>
-        <ul class="hourList">
-          <li class="hr 5">PĚT</li>
-          <li class="hr 6">ŠEST</li>
-          <li class="hr 7">SEDM</li>
-          <li class="hr 8">OSM</li>
-        </ul>
-        <ul class="hourList">
-          <li class="hr 9">DEVĚT</li>
-          <li class="hr 10">DESET</li>
-          <li class="hr 11">JEDENÁCT</li>
-          <li class="hr 12">DVANÁCT</li>
-        </ul>
-        <div class="minContainer">
-            <ul>
-                <li class="min 1">JEDNA</li>
-                <li class="min 2">DVA</li>
-                <li class="min 3">TŘ<I</li>
-                <li class="min 4">ČTYŘI</li>
-                <li class="min 5">PĚT</li>
-                <li class="min 6">ŠEST</li>
-                <li class="min 7">SEDM</li>
-                <li class="min 8">OSM</li>
-                <li class="min 9">DEVĚT</li>
-                <li class="min 10">DESET</li>
-                <li class="min 11">JEDENÁCT</li>
-                <li class="min 12">DVANÁCT</li>
-                <li class="min 13">TŘINÁCT</li>
-                <li class="min 14">ČTRNÁCT</li>
-                <li class="min 15">PATNÁCT</li>
-                <li class="min 16">ŠESTNÁCT</li>
-                <li class="min 17">SEDMNÁCT</li>
-                <li class="min 18">OSMNÁCT</li>
-                <li class="min 19">DEVATENCÁT</li>
-                <li class="min 20">DVACET</li>
-                <li class="min 21">DVACETJEDNA</li>
-                <li class="min 22">DVACETDVA</li>
-                <li class="min 23">DVACETTŘI</li>
-                <li class="min 24">DVACETČTYŘI</li>
-                <li class="min 25">DVACETPĚT</li>
-                <li class="min 26">DVACETŠEST</li>
-                <li class="min 27">DVACETSEDM</li>
-                <li class="min 28">DVACETOSM</li>
-                <li class="min 29">DVACETDEVĚT</li>
-                <li class="min 30">TŘICET</li>
-                <li class="min 31">TŘICETJEDNA</li>
-                <li class="min 32">TŘICETDVA</li>
-                <li class="min 33">TŘICETTŘI</li>
-                <li class="min 34">TŘICETČTYŘI</li>
-                <li class="min 35">TŘICETPĚT</li>
-                <li class="min 36">TŘICETŠEST</li>
-                <li class="min 37">TŘICETSEDM</li>
-                <li class="min 38">TŘICETOSM</li>
-                <li class="min 39">TŘICETDEVĚT</li>
-                <li class="min 40">ČTYŘICET</li>
-                <li class="min 41">ČTYŘICETJEDNA</li>
-                <li class="min 42">ČTYŘICETDVA</li>
-                <li class="min 43">ČTYŘICETTŘI</li>
-                <li class="min 44">ČTYŘICETČTYŘI</li>
-                <li class="min 45">ČTYŘICETPĚT</li>
-                <li class="min 46">ČTYŘICETŠEST</li>
-                <li class="min 47">ČTYŘICETSEDM</li>
-                <li class="min 48">ČTYŘICETOSM</li>
-                <li class="min 49">ČTYŘICETDEVĚT</li>
-                <li class="min 50">PADESÁT</li>
-                <li class="min 51">PADESÁTJEDNA</li>
-                <li class="min 52">PADESÁTDVA</li>
-                <li class="min 53">PADESÁTTŘI</li>
-                <li class="min 54">PADESÁTČTYŘI</li>
-                <li class="min 55">PADESÁTPĚT</li>
-                <li class="min 56">PADESÁTŠEST</li>
-                <li class="min 57">PADESÁTSEDM</li>
-                <li class="min 58">PADESÁTOSM</li>
-                <li class="min 59">PADESÁTDEVĚT</li>
-                <li class="min 60">ŠEDESÁT</li>
-                
-                
-            </ul>
-        </div>
-        <div class="secContainer">
-            <ul>
-                <li class="sec 1">JEDNA</li>
-                <li class="sec 2">DVA</li>
-                <li class="sec 3">TŘ<I</li>
-                <li class="sec 4">ČTYŘI</li>
-                <li class="sec 5">PĚT</li>
-                <li class="sec 6">ŠEST</li>
-                <li class="sec 7">SEDM</li>
-                <li class="sec 8">OSM</li>
-                <li class="sec 9">DEVĚT</li>
-                <li class="sec 10">DESET</li>
-                <li class="sec 11">JEDENÁCT</li>
-                <li class="sec 12">DVANÁCT</li>
-                <li class="sec 13">TŘINÁCT</li>
-                <li class="sec 14">ČTRNÁCT</li>
-                <li class="sec 15">PATNÁCT</li>
-                <li class="sec 16">ŠESTNÁCT</li>
-                <li class="sec 17">SEDMNÁCT</li>
-                <li class="sec 18">OSMNÁCT</li>
-                <li class="sec 19">DEVATENCÁT</li>
-                <li class="sec 20">DVACET</li>
-                <li class="sec 21">DVACETJEDNA</li>
-                <li class="sec 22">DVACETDVA</li>
-                <li class="sec 23">DVACETTŘI</li>
-                <li class="sec 24">DVACETČTYŘI</li>
-                <li class="sec 25">DVACETPĚT</li>
-                <li class="sec 26">DVACETŠEST</li>
-                <li class="sec 27">DVACETSEDM</li>
-                <li class="sec 28">DVACETOSM</li>
-                <li class="sec 29">DVACETDEVĚT</li>
-                <li class="sec 30">TŘICET</li>
-                <li class="sec 31">TŘICETJEDNA</li>
-                <li class="sec 32">TŘICETDVA</li>
-                <li class="sec 33">TŘICETTŘI</li>
-                <li class="sec 34">TŘICETČTYŘI</li>
-                <li class="sec 35">TŘICETPĚT</li>
-                <li class="sec 36">TŘICETŠEST</li>
-                <li class="sec 37">TŘICETSEDM</li>
-                <li class="sec 38">TŘICETOSM</li>
-                <li class="sec 39">TŘICETDEVĚT</li>
-                <li class="sec 40">ČTYŘICET</li>
-                <li class="sec 41">ČTYŘICETJEDNA</li>
-                <li class="sec 42">ČTYŘICETDVA</li>
-                <li class="sec 43">ČTYŘICETTŘI</li>
-                <li class="sec 44">ČTYŘICETČTYŘI</li>
-                <li class="sec 45">ČTYŘICETPĚT</li>
-                <li class="sec 46">ČTYŘICETŠEST</li>
-                <li class="sec 47">ČTYŘICETSEDM</li>
-                <li class="sec 48">ČTYŘICETOSM</li>
-                <li class="sec 49">ČTYŘICETDEVĚT</li>
-                <li class="sec 50">PADESÁT</li>
-                <li class="sec 51">PADESÁTJEDNA</li>
-                <li class="sec 52">PADESÁTDVA</li>
-                <li class="sec 53">PADESÁTTŘI</li>
-                <li class="sec 54">PADESÁTČTYŘI</li>
-                <li class="sec 55">PADESÁTPĚT</li>
-                <li class="sec 56">PADESÁTŠEST</li>
-                <li class="sec 57">PADESÁTSEDM</li>
-                <li class="sec 58">PADESÁTOSM</li>
-                <li class="sec 59">PADESÁTDEVĚT</li>
-                <li class="sec 60">ŠEDESÁT</li>
-                
-                
-            </ul>
-        </div>
-      </div>
+       
+      
      
 
 
 
     <script src="clock.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".clock-component"), {
+            max: 25,
+            speed: 400
+        });
+        
+       
+    </script>
 
 </body>
 </html>

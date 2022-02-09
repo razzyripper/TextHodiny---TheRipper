@@ -17,10 +17,10 @@ let startTime = () => {
 
     // console.log(pole[s])
   
-    // document.getElementById('clockText').innerHTML =  textTime[h] + ":" + textTime[m] + ":" + pole[s];
+    document.getElementById('clockText')
 
     
-        const hod = document.querySelectorAll('.hr')
+        const hod = document.querySelectorAll('.time')
         hod.forEach(r => {
           if(r.classList[1] == h){
             r.classList.add('now')
@@ -30,23 +30,23 @@ let startTime = () => {
           }
         })
 
-        const min = document.querySelectorAll('.min')
+        const min = document.querySelectorAll('.time')
         min.forEach(r => {
             if(r.classList[1] == m){
-                r.classList.add('now')
+                r.classList.add('minute')
             }
             if(r.classList[1] != m){
-                r.classList.remove('now')
+                r.classList.remove('minute')
             }
         })
 
-        const sec = document.querySelectorAll('.sec')
+        const sec = document.querySelectorAll('.time')
         sec.forEach(r => {
             if(r.classList[1] == s){
-                r.classList.add('now')
+                r.classList.add('seconds')
             }
             if(r.classList[1] != s){
-                r.classList.remove('now')
+                r.classList.remove('seconds')
             }
         })
     //  console.log(hod)
